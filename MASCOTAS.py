@@ -76,7 +76,7 @@ opc= 0
 
 
 while opc !=5:
-    opc = int(input("MENU\n1-crear ficha de mascota\n2-bucar codigo de mascota\n3-eliminar mascota por codigo\n4-lista de mascotas\n5-salir\nopcion: "))
+    opc = int(input("MENU(cambio brunch: menu mascotas)\n1-crear ficha de mascota\n2-bucar codigo de mascota\n3-eliminar mascota por codigo\n4-lista de mascotas\n5-salir\nopcion: "))
     if opc == 1:
         for i in range(0, 7):
             if i == 0:
